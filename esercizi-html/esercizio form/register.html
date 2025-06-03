@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regitrazione</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(177, 227, 241);
+        }
+
+        div {
+            background-color: rgb(211, 207, 200);
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Crea un nuovo account</h2>
+
+
+    <div>
+        <form action="#" method="post">
+            <div>
+                <label for="input-name">Nome</label>
+                <input type="text" id="input-name" placeholder="Inserisci il tuo Nome" required>
+            </div>
+            <br>
+            <div>
+                <label for="input-surname">Cognome</label>
+                <input type="text" id="input-surname" placeholder="Inserisci il tuo Cognome" required>
+            </div>
+            <div>
+                <br>
+                <label for="input-email">Email</label>
+                <input type="email" id="input-email" placeholder="Inserisci la tua mail">
+            </div>
+            <br>
+            <div>
+                <label for="input-psw">Password</label>
+                <input type="password" id="input-psw" placeholder="Inserisci la tua password">
+
+
+            </div>
+            <br>
+            <div><label for="psw-confirm">Conferma password</label>
+                <input type="password" id="psw-confirm" placeholder="Conferma la password">
+            </div>
+            <br>
+            <div><label for="input-date">Data di nascita</label>
+                <input type="date" id="input-date" placeholder="inserisci di nuovo la password">
+            </div>
+
+            <h2>Seleziona il tuo genere</h2>
+            <div>
+                <input type="radio" name="genre" id="input-male">
+                <label for="input-male">Maschio</label>
+
+            </div>
+            <div>
+
+                <input type="radio" name="genre" id="input-female">
+                <label for="input-female">Femmina</label>
+            </div>
+            <div>
+                <input type="radio" name="genre" id="input-oth">
+                <label for="input-oth">Altro</label>
+
+            </div>
+            <div><label for="input-text">Scrivi qualcosa</label>
+                <textarea name="Scrivi" id="input-text" rows="10"></textarea>
+
+            </div>
+            <br>
+            <div>
+                <button type="submit">Registrati</button>
+                <button type="reset">Cancella</button>
+            </div>
+            <div>
+                <p>Hai già un account? <a href="/esercizio form/login.html"> Accedi qui!</a></p>
+            </div>
+
+
+
+
+
+
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
