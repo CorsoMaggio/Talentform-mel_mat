@@ -1,0 +1,16 @@
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.container-fluid>* {
+    margin: 4px;
+}

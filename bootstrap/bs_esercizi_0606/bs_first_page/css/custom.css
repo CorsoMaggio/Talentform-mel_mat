@@ -1,0 +1,24 @@
+h1 {
+    color: black;
+}
+
+h1 {
+    padding-top: 2rem;
+    text-shadow: 0 13px 27px -5px #32325d40, 0 8px 16px -8px #0000004d, 0 -6px 16px -6px #00000008;
+}
+
+p {
+
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+
+
+.carousel {
+    margin-top: 3rem;
+}
+
+.card-group {
+    margin: 5px !important;
+}
