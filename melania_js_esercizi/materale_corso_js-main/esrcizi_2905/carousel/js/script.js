@@ -23,7 +23,7 @@ for (let numero2 = 1; numero2 <= 20; numero2++) {
         console.log(numero2);
 
     } else {
-        console.log(numero2 + " non è pari.")
+        console.log(numero2 + " non è pari.");
     }
 
 
